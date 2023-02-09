@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+/*=====================================*/
+
+header div h1{
+    color: white;
+    margin: 10px 0 0 30px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+}
+
+header div{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/photo-1448375240586-882707db888b.avif');
+    background-size: cover;
+    display:flex
+}
+
+header div nav{
+    background-color: rgba(255,255,255,0.05);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    
+}
+
+header div nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 2vw;
+    margin-right: 5vw;
+    
+}
+
+header div nav a:hover{
+    color:rgb(162, 162, 162)
+}
+
+
+
+
